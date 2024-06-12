@@ -52,7 +52,7 @@ The Contact Management App is a web-based application designed to help users man
 
    ```bash
    git clone https://github.com/tonmoydeb404/contact-management.git
-   cd contact-management-app/backend
+   cd contact-management/backend
    ```
 
 2. Install dependencies:
