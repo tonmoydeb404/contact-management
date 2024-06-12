@@ -13,6 +13,7 @@ exports.getAllContacts = async (req, res) => {
 exports.createContact = async (req, res) => {
   try {
     const contact = req.body;
+
     const result = await Contact.create(contact);
     res.status(201).json({ id: result.insertId, ...contact });
   } catch (error) {
